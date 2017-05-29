@@ -14,6 +14,8 @@ TODO:
 Code ZCOIN specific RPC commands in, lib/index.js
 ```bash
 
+Added the correct RPC port for Zcoin, port 8888 
+
 ## Get Started
 
 bitcoind-rpc.js runs on [node](http://nodejs.org/), and can be installed via [npm](https://npmjs.org/):
