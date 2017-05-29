@@ -1,6 +1,6 @@
 {
-  "name": "bitcoind-rpc",
-  "description": "Bitcoin Client Library to connect to Bitcoin Core via RPC",
+  "name": "bitcoind-rpc-zcoin",
+  "description": "Zcoin Client Library to connect to Zerocoin Core via RPC",
   "version": "0.7.0",
   "author": {
     "name": "Stephen Pair",
@@ -25,12 +25,12 @@
     }
   ],
   "keywords": [
-    "bitcoin",
-    "rpc"
+    "zcoin",
+    "rpc",
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcoind-rpc"
+    "url": "https://github.com/technoprenerd/bitcoind-rpc-zcoin"
   },
   "license": "MIT",
   "main": "lib/index.js",
@@ -47,7 +47,7 @@
     "sinon": "^1.12.2"
   },
   "bugs": {
-    "url": "https://github.com/bitpay/bitcoind-rpc/issues"
+    "url": "https://github.com/technoprenerd/bitcoind-rpc-zcoin/issues"
   },
-  "homepage": "https://github.com/bitpay/bitcoind-rpc"
+  "homepage": "https://github.com/technoprenerd/bitcoind-rpc-zcoin"
 }
