@@ -11,7 +11,9 @@ A client library to connect to Zerocoin (ZCoin) Core RPC in JavaScript.
 TODO:
 
 ```bash
-Code ZCOIN specific RPC commands in, lib/index.js
+Code ZCOIN specific RPC commands in, lib/index.js 
+https://github.com/zcoinofficial/zcoin/blob/2d5ccff1836451894ce5598e33be0ec5ce496688/src/bitcoinrpc.cpp
+https://github.com/zcoinofficial/zcoin/blob/ce3b488bd9553af7ef9ed83bc51c2ed44cc39463/src/bitcoinrpc.h
 ```bash
 
 Added the correct RPC port for Zcoin, port 8888 
