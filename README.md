@@ -5,7 +5,7 @@ bitcoind-rpc.js
 [![Build Status](https://img.shields.io/travis/bitpay/bitcoind-rpc.svg?branch=master&style=flat-square)](https://travis-ci.org/bitpay/bitcoind-rpc)
 [![Coverage Status](https://img.shields.io/coveralls/bitpay/bitcoind-rpc.svg?style=flat-square)](https://coveralls.io/r/bitpay/bitcoind-rpc?branch=master)
 
-A client library to connect to Zerocoin (ZCoin) Core RPC in JavaScript.
+A client library to connect to Zcoin Core RPC in JavaScript.
 
 
 TODO:
