@@ -27,6 +27,7 @@ describe('RpcClient', function() {
     var s = new RpcClient();
     should.exist(s);
     s.rejectUnauthorized.should.equal(true);
+    s.getBlockchainInfo();
   });
 
   it('should be able to define a custom logger', function() {
@@ -450,7 +451,7 @@ describe('RpcClient', function() {
     client.getDifficulty(function(error, parsedBuf) {
       requestStub.restore();
       should.exist(error);
-      error.message.should.equal('Bitcoin JSON-RPC: Error Parsing JSON: Unexpected token o');
+      error.message.should.contain('Bitcoin JSON-RPC: Error Parsing JSON: Unexpected token o');
       done();
     });
 
@@ -481,7 +482,7 @@ describe('RpcClient', function() {
     client.getDifficulty(function(error, parsedBuf) {
       requestStub.restore();
       should.exist(error);
-      error.message.should.equal('Bitcoin JSON-RPC: Error Parsing JSON: Unexpected end of input');
+      error.message.should.contain('Bitcoin JSON-RPC: Error Parsing JSON: Unexpected end of');
       done();
     });
 
